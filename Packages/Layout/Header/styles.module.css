@@ -1,0 +1,48 @@
+.main_container {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	margin: 0;
+	background:#f5f6fa;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px;
+}
+
+.title{
+    font-size: 26px;
+    color: #273c75;
+    margin-left: 20px;
+}
+
+.user_details{
+    display: flex;
+    align-items: center;
+}
+
+.user_name{
+    margin-left: 10px;
+  
+    font-size: 16;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    flex-direction:column;
+  
+    cursor: pointer;
+}
+
+.user_email{
+  
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}

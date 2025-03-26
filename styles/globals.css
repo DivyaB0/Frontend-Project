@@ -1,0 +1,45 @@
+/* Resetting body and scroll behavior */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  /* background: #f5f6fa; */
+}
+
+/* Scrollbar design */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: #273c75;
+}
+
+/* Hide development tools in the browser */
+html body [data-nextjs-dev-tools-button] {
+  display: none !important;
+}
+
+html body [data-next-badge] {
+  display: none !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Adjust font size for better readability on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 13px; /* Adjust font size further for very small devices */
+  }
+}
