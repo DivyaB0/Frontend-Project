@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
-import App from '../Packages/_app';
+import "@/styles/responsive.css";
+import App from "../Packages/_app";
 
 export default App;
